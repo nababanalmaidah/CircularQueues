@@ -70,4 +70,13 @@ private:
         void display()
         {
 
+            int FRONT_Position = FRONT;
+            int REAR_Poisition = REAR;
+
+            if (FRONT_Position == -1)
+            {
+                cout << "Queue is empty\n";
+                return;
+            }
+
             
