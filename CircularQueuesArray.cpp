@@ -79,4 +79,14 @@ private:
                 return;
             }
 
-            
+            cout << "\nElements in the queue are....\n";
+
+            if (FRONT_Position <= REAR_position)
+            {
+                while (FRONT_Position <= MAX - 1)
+    {
+        cout << queue_array[FRONT_Position] << " ";
+        FRONT_Position++;
+    }
+
+    
