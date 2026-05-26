@@ -115,3 +115,16 @@ else
         cout << queue_array[FRONT_Position] << " ";
         FRONT_Position++;
 }
+cout << endl;
+}
+                
+}
+
+};
+
+int main()
+{
+    Queues q;
+    char ch;
+
+    
